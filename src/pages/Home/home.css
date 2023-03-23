@@ -1,0 +1,118 @@
+.container {
+    background: url("../../assets/home.webp") no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    max-width: 850px;
+    text-align: center;
+}
+
+.title-home {
+    font-size: 4.5rem;
+    line-height: 4.68rem;
+    color: #fdb827;
+    margin: 1.25rem 0;
+}
+
+.subtitle-home {
+    color: rgba(189, 189, 189, 0.884);
+}
+
+.title {
+    font-size: 46px;
+    margin-bottom: 0.95rem;
+    color: #fdb827;
+}
+
+p {
+    font-size: 1.3rem;
+    line-height: 1.87rem;
+    font-weight: 400;
+    color: rgba(189, 189, 189, 0.884);
+}
+
+.home {
+    display: flex;
+    flex-direction: row;
+}
+
+.homebox1 {
+    max-width: 650px;
+    margin-right: 10%;
+}
+.homebox2 {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.sethome {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.profile {
+    height: 220px;
+    width: 220px;
+    transition: ease-in;
+}
+
+.social {
+    margin-top: 5%;
+}
+
+.social a {
+    padding: 12px 12px;
+}
+
+.btnnext {
+    position: fixed;
+    width: 12rem;
+    height: auto;
+    left: 63px;
+    bottom: 40px;
+    z-index: 20;
+}
+
+@media only screen and (max-width: 1024px) {
+    .content {
+        padding: 0px 1rem;
+    }
+    .home {
+        flex-direction: column;
+        padding: 0 3%;
+    }
+    .homebox1 {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 0;
+    }
+    .social {
+        margin-bottom: 10%;
+    }
+}
+
+@media only screen and (max-width: 481px) {
+    .home {
+        height: 100vh;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .home {
+        height: auto;
+    }
+    .title-home {
+        margin-top: 25%;
+    }
+    .homebox2 {
+        margin-bottom: 10%;
+    }
+}

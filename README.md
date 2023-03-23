@@ -1,21 +1,47 @@
-## Primeiro Portfólio
+## Portfolio
 
-Portfólio desenvolvido totalmente por mim, aplicando os conhecimentos adquiridos durante meus estudos com o objetivo de mostrar meus outros projetos e os futuros.
+Portfolio was developed entirely by me, applying the knowledge acquired during my studies and researches.
 
-## ✔️ Tecnologias utilizadas
+## ✔️ Technologies used
 
-As seguintes ferramentas foram usadas na construção do projeto:
+The following tools were used in building the project:
 
 -   `HTML`
 -   `CSS`
 -   `JavaScript`
+-   [React](https://pt-br.reactjs.org/)
+-   [React router dom](https://github.com/remix-run/react-router/tree/main/packages/react-router-dom)
+-   [React-icons](https://react-icons.github.io/react-icons/)
+-   [Unsplash images](https://unsplash.com/)
 
-## 📁 Acesso ao projeto
+## 📁 Access to the project
 
-[Veja o projeto em funcionamento](https://gustavoallmport.netlify.app/).
+[See the project in action](https://gustavoallm.netlify.app/).
 
-Neste repositório você tem acesso a todo o material necessario.
+In this repositoty you have access to all the necessary material.
 
-## 🛠️ Abrir e rodar o projeto
+## 🛠️ Open and run the project
 
-Basta baixar os arquivos e ter um editor para trabalhar com o codigo como [VSCode](https://code.visualstudio.com/).
+First you need to have installed on your machine the [Node.js](https://nodejs.org/en/), [Git](https://git-scm.com/) and have an editor to work with the code like [VSCode](https://code.visualstudio.com/).
+
+### 🎲 Running the web application
+
+```bash
+# Clone this repository
+git clone https://github.com/gustavoallm/reactport.git
+
+# Access the project folder in terminal/cmd
+cd reactport
+
+# install the dependencies
+npm install
+
+# Run the application in development mode
+npm start
+
+# The application will open on the port:3000 - access http://localhost:3000
+```
+
+## 📑 License
+
+The use of files for purposes other than learning is **prohibited.**
